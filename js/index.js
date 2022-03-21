@@ -7,6 +7,7 @@
 import { views } from '../modules/moduleCounter.js';
 import { createPopUp } from '../modules/popUp.js';
 
+
 $(document).ready(function (){
 
     $("ul li div.images .button:odd").attr({
@@ -40,7 +41,7 @@ $(document).ready(function (){
     });
 
     $("#callingAjax").click(function(){
-        $.get('../js/home.json', function(res) {
+        $.get('../home.json', function(res) {
             let txt = res.texto;
             document.getElementById("fill-textarea").innerHTML = txt;
         });
