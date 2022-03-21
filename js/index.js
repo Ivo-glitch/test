@@ -40,7 +40,7 @@ $(document).ready(function (){
     });
 
     $("#callingAjax").click(function(){
-        $.get('../json/home.json', function(res) {
+        $.get('../js/home.json', function(res) {
             let txt = res.texto;
             document.getElementById("fill-textarea").innerHTML = txt;
         });
