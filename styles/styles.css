@@ -12,7 +12,7 @@
         }
 
         .parallax {
-            background-image: url("/img/header.jpg");
+            background-image: url("../img/header.jpg");
             min-height: 500px;
             background-attachment: fixed;
             background-position: center;
